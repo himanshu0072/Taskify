@@ -1,0 +1,23 @@
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .subtitle {
+    display: inline-block;
+    font-size: 1.2rem; 
+    vertical-align: middle; 
+  }
+  
+
+  .innerBox {
+    max-width: 600px;
+    margin: auto; 
+  }
+  
+  .form-control {
+    border-radius: 0.5rem; 
+  }
+  
