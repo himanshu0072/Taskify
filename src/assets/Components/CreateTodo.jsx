@@ -41,7 +41,10 @@ function CreateTodo({ addTask }) {
 
   return (
     <div className="innerBox rounded bg-light text-dark w-100 h-100 mt-3 p-3">
-      <form className="d-flex flex-column flex-md-row justify-content-center align-items-center" onSubmit={handleSubmit}>
+      <form
+        className="d-flex flex-column flex-md-row justify-content-center align-items-center"
+        onSubmit={handleSubmit}
+      >
         <div className="form-group mx-sm-3 mb-2 flex-grow-1">
           <input
             type="text"
